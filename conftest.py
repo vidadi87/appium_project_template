@@ -30,6 +30,8 @@ def driver():
 
 
 # Инструкция:
+# 0. Перейти в виртуалку:
+# source .venv/bin/activate
 # 1. Посмотреть список доступных AVD-эмуляторов:
 # ~/Library/Android/sdk/emulator/emulator -list-avds
 # 2. Запустить нужный эмулятор вручную через терминал:
@@ -38,5 +40,6 @@ def driver():
 # adb devices
 # 4. В отдельном терминале запустить Appium сервер:
 # appium
-# 5. Запустить тест с флагом для логирования событий:
-#  pytest tests/test_login.py
+# 5. Запустить тест:
+# pytest tests/test_login.py
+# pytest tests/test_play_movie.py
