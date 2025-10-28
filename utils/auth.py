@@ -104,3 +104,4 @@ def login_with_email(driver, email, password, timeout=10):
     cont.click()
     logger.info("✅ Авторизация завершена. Пользователь вошёл в систему.")
     time.sleep(2)
+
