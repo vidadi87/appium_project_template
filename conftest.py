@@ -43,3 +43,24 @@ def driver():
 # 5. Запустить тест:
 # pytest tests/test_login.py
 # pytest tests/test_play_movie.py
+
+# ------------------------------------
+
+# Работа с git:
+
+# Создать ветку:
+# git checkout -b [название ветки] пример feature/auth-tests
+
+# Работа в ветке и коммиты в нее:
+# git add .
+# git commit -m "Добавил новый сценарий авторизации"
+
+# Пуш ветки в git для бекапа:
+# git push -u origin feature/auth-tests
+
+# Влить ветку в мастер:
+# git checkout main
+# git merge feature/auth-tests
+
+# Пуш мастера в git:
+# git push origin main
