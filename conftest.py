@@ -29,7 +29,6 @@ def driver():
     driver.quit()
 
 
-
 # Инструкция:
 # 0. Перейти в виртуалку:
 # source .venv/bin/activate
