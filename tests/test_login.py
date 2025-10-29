@@ -173,3 +173,4 @@ def test_click_russian_and_wait(driver):
     continue_btn.click()
     logger.info("✅ Кнопка 'Продолжить' успешно нажата.")
     time.sleep(5)
+
